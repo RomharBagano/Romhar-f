@@ -1,0 +1,285 @@
+<!-- Created by Emediong Ekoh -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Contact page</title>   </head>
+    <body>
+   <nav>
+       
+<hr>
+<section id="contact">
+
+    <h1 id='cnt'>Contact</h1>
+    <p>Phone:09045479002</p>
+    <p>Email:<a href="emediongekoh@gmail.com">emediongekoh@gmail.com</a></p>
+   
+    <div id="handles">
+    <div class="circle2"></div>
+    <h3 id="social">My social handles</h3>
+    <p>
+        
+    <i class="fa fa-facebook-square icon" aria-hidden="true"></i>
+       <i class="fa fa-whatsapp icon" aria-hidden="true"></i>
+      <i class="fa fa-twitter-square icon" aria-hidden="true"></i> 
+    </div>
+    </body>
+    <style>
+        
+
+body {
+    margin:0;
+    padding:0;
+}
+*{
+font-family: 'Kanit', sans-serif;
+    //font-family: 'Combo', cursive;
+}
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color:rgba(225,225,225,0.9);
+    position:fixed;
+    width:100%;
+    z-index:1;
+}
+.menubar{
+    padding-left:2rem;
+    color:black;
+    font-size:2rem;
+}
+#logo{
+    font-size:1.2rem;
+    color:black;
+}
+.container{
+    max-width:900px;
+    padding:0.2rem;
+   /* margin:5px;
+    box-shadow:0 0 5px gray;
+    border-radius:10px;
+    background-color:Azure;*/
+    position:relative ;
+}
+#downNav{
+    display:none;
+    justify-content:space-between;
+    align-items:center;
+    position:fixed;
+    bottom:0;
+    background:royalblue;
+    padding:0.8rem;
+    width:100%;
+   transition:opacity 1s ease-in-out;
+   z-index:2;
+}
+.nav1{
+    margin-right:0.9rem;
+}
+.decor{
+    color:white;
+}
+#intro1,#intro2,#intro3{
+    color:darkslategray;
+  //  text-shadow:0 0 5px gray;
+    font-family: 'Rampart One', cursive;
+}
+#intro1 > span{
+   /* background:royalblue;
+    color:white;
+    border-radius:20px;
+    padding:5px;*/
+    color:red;
+   font-family: 'Rampart One', cursive;
+}
+#intro2>span{
+   margin-left:3rem;
+   /* background:orange;
+    border-radius:25px;
+    padding:5px;
+    color:white;*/
+    color:royalblue;
+    font-family: 'Rampart One', cursive;
+}
+#intro3 > span{
+    margin-left:6rem;
+   /* background:orange;
+    border-radius:25px;
+    padding:5px;
+    color:white;*/
+    color:royalblue;
+    font-family: 'Rampart One', cursive;
+}
+#youtube{
+    width:80%;
+    color:white;
+    background:red;
+    border:none;
+    font-size:2rem;
+    border-radius:2rem;
+    
+}
+#ublock{
+    text-align:center;
+}
+#About{
+    padding:0.3rem;
+    color:black;
+    //box-shadow:0 0 5px gray;
+   // margin:5px;
+    border-radius:0.9rem;
+    position:relative;
+}
+#abt{
+    text-align:center;
+    text-decoration:underline;
+    font-size:3rem;
+    color:darkslategray;
+    font-family: 'Combo', cursive;
+}
+#About p{
+    font-size:1rem;
+    line-height:1.5;
+}
+#cnt{
+    text-align:center;
+    text-decoration:underline;
+    font-size:3rem;
+    color:darkslategray;
+    font-family: 'Combo', cursive;
+}
+#contact{
+    padding:0.3rem;
+    color:black;
+    //box-shadow:0 0 5px gray;
+   // margin:5px;
+    border-radius:0.9;
+    margin-top:1rem;
+    position:relative;
+}
+#contact p{
+     font-size:1rem;
+    line-height:1.5;
+}
+.circle1{
+    width:50px;
+    height:50px;
+    background-color:orange;
+    border-radius:50%;
+   // opacity:0.3;
+    position:absolute;
+   
+}
+.circle2{
+    width:50px;
+    height:50px;
+    background-color:royalblue;
+    border-radius:50%;
+    opacity:0.3;
+    position:absolute;
+    top:20%;
+    left:60%;
+   
+}
+.circle3{
+    width:50px;
+    height:50px;
+    background-color:yellow;
+    border-radius:50%;
+    //opacity:0.3;
+    position:absolute;
+   
+}
+#handles{
+    margin:0.3rem;
+    box-shadow:0 0 5px gray;
+    border-radius:0.9rem;
+    padding:0.3rem;
+    background:royalblue;
+    color:white;
+}
+hr{
+    border:1px dashed gray;
+}
+.icon{
+    font-size:1.4rem;
+    margin-left:1.2rem;
+}
+#FQ{
+    text-align:center;
+    text-decoration:underline;
+    font-size:3rem;
+    color:darkslategray;
+    font-family: 'Combo', cursive;
+}
+.Question{
+    background:royalblue;
+    color:white;
+    border-radius:1.6rem;
+    padding:0.3rem;
+    margin:0.3rem;
+}
+.Answer{
+    background:red;
+    color:white;
+    border-radius:1.8rem;
+    padding:0.3rem;
+    margin:1.9rem;
+}
+dd{
+    line-height:2;
+    background-color:royalblue;
+    margin:0.3rem;
+    color:white;
+    border-radius:1.2rem;
+    padding:0.3rem;
+    box-shadow:0 0 5px gray;
+}
+dt{
+    font-size:1.2rem;
+}
+#QA{
+    margin:0.3rem;
+}
+#helpFull{
+    text-align:center;
+}
+#helpFull p{
+    opacity:0.4;
+}
+#helpFull button{
+    width:30%;
+    padding:1rem;
+    border:1px solid royalblue;
+    background:transparent;
+    border-radius:0.7rem;
+    outline:none;
+}
+#helpFull button:hover{
+    background:royalblue;
+    color:white;
+}
+iframe{
+    width:100%;
+    
+}
+footer{
+color:white;
+     background-color:rgba(13,13,13,0.9);
+     //padding:0.4rem;
+}
+#watch{
+    opacity:0.5;
+    padding:0.4rem;
+}
+#Fhandles{
+    text-align:center;
+    margin-top:1rem;
+}
+#top a{
+    text-decoration:none;
+    color:white;
+    opacity:0.4;
+    font-size:1rem;
+    margin-left:0.6r
